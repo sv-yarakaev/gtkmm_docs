@@ -1,0 +1,50 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+
+
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\usepackage{graphicx}
+\graphicspath{{pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+
+\lstset{
+	backgroundcolor=\color{lbcolor},
+	tabsize=4,
+	language=C++,
+	captionpos=b,
+	tabsize=3,
+	frame=lines,
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=5pt,
+	breaklines=true,
+	showstringspaces=false,
+	basicstyle=\footnotesize,
+	%  identifierstyle=\color{magenta},
+	keywordstyle=\color[rgb]{0,0,1},
+	commentstyle=\color{Darkgreen},
+	stringstyle=\color{red},
+	inputencoding=utf8
+}
+
+
+
+\begin{document}
+	\include{title}
+	\tableofcontents
+	\include{p1ch1}
+	\include{p1ch2}
+	\include{p1ch3}
+	\include{p1ch4}
+	\include{p1ch5}
+	\include{p1ch6}
+	
+\end{document}
